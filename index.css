@@ -123,6 +123,13 @@ header a:hover{
 	background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+#descripcion .publicidad{
+	text-align: center;
+	padding: 5px 15px;
+	background: #020202;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #070303, #ea4e4e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #070303, #ea4e4e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 #nuestros-concursos{
 	color: white;
 	text-align: center;
@@ -253,6 +260,7 @@ footer .container{
 		padding-left: 30px;
 
 	}
+
 	#descripcion .img-container{
 		background-image: url(imagenes/hero.jpg);
 		background-size: cover;
