@@ -46,7 +46,7 @@ header div .logo{
 	font-size: 1.6em;
 	width: 10 px;
 	transform: translate(0px);
-	animation: float 0.5s ease-out infinite;
+	animation: float 3s ease-out infinite;
 }
  header .container div{
 	display: flex;
@@ -64,7 +64,7 @@ header .container img{
 	padding-left: 0;
 	padding-bottom: 20px;
 	transform: translate(0px);
-	animation: float 0.5s ease-out infinite;
+	animation: float 3s ease-out infinite;
 	
 }
 
