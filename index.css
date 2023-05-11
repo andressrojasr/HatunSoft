@@ -1,7 +1,7 @@
 *{
 	box-sizing: border-box;
 }
-h1{font-size: 3.5em;}
+h1{font-size: 2em;}
 h2{font-size: 2.7em;}
 h3{font-size: 2em;}
 h4{font-size: 1.25em;}
@@ -14,7 +14,7 @@ body{
 }
 
 button{
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: bold;
 	padding: 10px 30px;
 	border-radius: 10px;
@@ -22,7 +22,9 @@ button{
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 	color: white;
 	background-color: #032940;	
+
 }
+
 
 button:hover{
 	background-color: #3DF2E0;
@@ -108,7 +110,7 @@ header a:hover{
 	rgba(0,0,0,0.5),
 	rgba(0,0,0,0.5)
 	)
-	,url(imagenes/hero.jpg);
+	,url(imagenes/logo_concurso.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -129,6 +131,34 @@ header a:hover{
 	background: #020202;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #070303, #ea4e4e);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #070303, #ea4e4e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#descripcion .publicidad2{
+	text-align: center;
+	padding: 5px 15px;
+	background: #020202;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #0c8eba, #0c8eba);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #0c8eba, #0c8eba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#descripcion .publicidad3{
+	text-align: center;
+	padding: 5px 15px;
+	background: #020202;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #070303, #070303);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #070303, #070303); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#descripcion .publicidad4{
+	text-align: center;
+	padding: 5px 15px;
+	background: #020202;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #070303, #070303);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #070303,#070303); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#descripcion .publicidad5{
+	text-align: center;
+	padding: 5px 15px;
+	background: #020202;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #070303, #070303);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #070303, #070303); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #nuestros-concursos{
 	color: white;
@@ -325,5 +355,11 @@ footer .container{
 		width: 100%;
 		padding: 20px;
 		
+	}
+
+	.mi-clase-h1-formato{
+		font-family: Arial, Helvetica, sans-serif;
+		color: #020202;
+		font-size: 10x;
 	}
 }
